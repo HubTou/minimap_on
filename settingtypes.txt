@@ -1,0 +1,10 @@
+[Minimap]
+
+# Minimap mode
+# 0 = minimap hidden
+# 1-3 = surface minimap with increasing zoom level
+# 4-6 = underground (radar) minimap with increasing zoom level 
+minimap_on_mode (Mode) int 1 0 6
+
+# Minimap shape
+minimap_on_shape (Shape) enum square square,round
